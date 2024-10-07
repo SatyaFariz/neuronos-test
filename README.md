@@ -21,8 +21,8 @@ To run the API locally, follow these steps:
 1. Clone the repository:
 
     ```bash
-    git clone <repository-url>
-    cd <repository-folder>
+    git clone https://github.com/SatyaFariz/neuronos-test.git
+    cd neuronos-test
     ```
 
 2. Make sure you are using Node v20 or later.
