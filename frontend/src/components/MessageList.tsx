@@ -50,8 +50,6 @@ function MessageList() {
           ...prevState,
           messages: changes.messages.newValue,
         }));
-
-        window.scrollTo(0, 0);
       }
     });
   }, []);

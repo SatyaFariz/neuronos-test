@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "version": "1.0.0",
-  "name": "My Chrome Extension",
+  "name": "Satya Fariz - Chrome Extension Development Exercise",
   "description": "Technical assignment for the Frontend Developer Position at neuronOS",
   "action": {
     "default_popup": "index.html"
