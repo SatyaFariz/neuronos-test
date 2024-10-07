@@ -1,0 +1,19 @@
+{
+  "name": "chrome-extension-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server": "node index.js",
+    "json-server": "npx json-server --watch db.json --port 5000",
+    "start": "concurrently \"npm run server\" \"npm run json-server\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@faker-js/faker": "^9.0.3",
+    "concurrently": "^9.0.1",
+    "json-server": "^1.0.0-beta.3"
+  }
+}

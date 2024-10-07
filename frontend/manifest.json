@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "version": "1.0.0",
+  "name": "My Chrome Extension",
+  "description": "Technical assignment for the Frontend Developer Position at neuronOS",
+  "action": {
+    "default_popup": "index.html"
+  },
+  "permissions": ["storage", "activeTab", "scripting", "tabs", "alarms", "notifications"],
+  "host_permissions": [
+    "http://*/*",
+    "https://*/*"
+  ],
+  "background": {
+    "service_worker": "src/background.ts",
+    "type": "module"
+  },
+  "icons": {
+    "16": "react.png",
+    "32": "react.png",
+    "48": "react.png",
+    "128": "react.png"
+  }
+}
